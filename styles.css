@@ -1,0 +1,197 @@
+.nav{
+    margin-right: 50px;
+
+}
+
+.fs-4{
+    color: black;
+}
+
+#img1 {
+
+    width: 350px;
+    height: 450px;
+    border-radius: 25%;
+        
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #0ab4a0, #4eafb4, #3712afe9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+    }
+.nav-item{
+  font-size: 20px;
+  
+
+}
+.nav-link{
+  color: black;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  
+  
+}
+
+.pers{
+  
+  font-weight: 400;
+  font-size: 80px;
+  
+}
+
+.mijn{
+  background-color: white;
+  color: black;
+}
+
+header{
+  background-color: white;
+}
+
+#deel2{
+  margin-top: -100px;
+  margin-bottom: 30px;
+}
+
+#deel1{
+  margin-top: 50px;
+}
+
+.erv{
+  margin-bottom: 20px;
+}
+.werkOne{
+margin-top: 50px;
+font-size: 17px;
+  
+  
+}
+
+.werkTwo{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 17px;
+
+}
+.werkThree{
+ margin-bottom: 50px;
+ font-size: 17px;
+ 
+}
+
+
+#werkerv{
+  font-size: 50px;
+  margin-top: 50px;
+ 
+
+}
+
+
+.opleiding{
+  margin-top: 50px;
+ 
+  
+}
+.opleid{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+ 
+}
+
+.opl{
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.opleidone{
+  font-size: 50px;
+  margin-top: 50px;
+
+}
+#oplicon{
+  margin-right: 20px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-bottom: 50px;
+
+    
+}
+
+.grid-container div{
+  padding: 5px;
+  text-align: justify;
+}
+
+.competencies{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#compicon{
+  margin-right: 20px;
+}
+
+#talen{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#talicon{
+  margin-right: 20px;
+}
+
+
+@media only screen and (max-width:1000px){
+  .grid-container{
+    grid-template-columns: 50% 50%;
+  }
+}
+
+
+#werkicon{
+  margin-right: 20px;
+}
+
+#it{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#iticon{
+  margin-right: 20px;
+}
+
+.pdf-container{
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.formaat{
+  color: #8fd647;
+}
